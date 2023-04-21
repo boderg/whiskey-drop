@@ -1,0 +1,65 @@
+body {
+    font-family: 'Instrument Serif', serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: orange;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron-lead {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: rgb(211 211 211);
+}
+
+.jumbotron small {
+    font-size: 125%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.monthly-favourites-container {}
