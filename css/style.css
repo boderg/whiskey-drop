@@ -2,7 +2,24 @@ body {
     font-family: 'Instrument Serif', serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.alert-warning {
+    color: rgb(55, 55, 55); 
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: orange;
+    border-color: orange;
+    font-size: 1.5rem;
+}
+
 
 .callout-container {
     height: 100vh;
@@ -25,7 +42,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .quotes-container {}
@@ -38,7 +55,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    
+
 }
 
 .block-divider--orange {
@@ -47,6 +64,38 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /* jumbotron */
@@ -74,7 +123,8 @@ body {
     color: #d0d0d0;
 }
 
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
     padding: 0.5rem 1rem;
     font-size: 1.75rem;
     line-height: 1.5;
@@ -86,11 +136,28 @@ body {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 120px;
+}
+
+.btn--grey {
+    color: orange;
+    background-color: rgb(55,55,55);
+    border-color: rgb(55,55,55);
+    font-size: 1.5rem;
+    width: 250px;
+}
+
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
+    color: white;
+    background-color: rgb(1, 187, 1);
+    border-color: rgb(1, 187, 1);
 }
 
 .btn--red {
-    color: white;
+    color: rgb(55,55,55);
     background-color: orange;
     border-color: orange;
 }
@@ -100,14 +167,195 @@ body {
 .btn--red:focus,
 .btn--red:active:focus {
     color: white;
-    background-color: orangered;
-    border-color: orangered;
+    background-color: rgb(1, 187, 1);
+    border-color: rgb(1, 187, 1);
 }
 
 .free {
     font-weight: bold;
-    color: white;
+    color: rgb(211,211,211);
+    background-color: rgb(55, 55, 55);
+    border-radius: 23px;
+}
+
+
+.monthly-favourites-container {}body {
+    font-family: 'Instrument Serif', serif;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.alert-warning {
+    color: rgb(55, 55, 55); 
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
     background-color: orange;
+    border-color: orange;
+    font-size: 1.5rem;
+}
+
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+
+}
+
+.block-divider--orange {
+    background-color: orange;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron-lead {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: rgb(211 211 211);
+}
+
+.jumbotron small {
+    font-size: 125%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 120px;
+}
+
+.btn--grey {
+    color: orange;
+    background-color: rgb(55,55,55);
+    border-color: rgb(55,55,55);
+    font-size: 1.5rem;
+    width: 250px;
+}
+
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
+    color: white;
+    background-color: rgb(1, 187, 1);
+    border-color: rgb(1, 187, 1);
+}
+
+.btn--red {
+    color: rgb(55,55,55);
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: white;
+    background-color: rgb(1, 187, 1);
+    border-color: rgb(1, 187, 1);
+}
+
+.free {
+    font-weight: bold;
+    color: rgb(211,211,211);
+    background-color: rgb(55, 55, 55);
     border-radius: 23px;
 }
 
