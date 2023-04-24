@@ -249,3 +249,24 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
+
+/* Modal */
+
+.modal-title {
+    color: lightgrey;
+}
+
+.modal-body, .modal-header {
+    background-color: rgb(55, 55, 55);
+    border-color: orange;
+}
+
+.form-control {
+    border-color: orange;
+    background-color: lightgrey;
+}
+
+.form-group {
+    color: lightgrey;
+    background-color: rgb(55, 55, 55);
+}
