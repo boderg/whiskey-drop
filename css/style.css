@@ -150,7 +150,7 @@ body {
 
 .free {
     font-weight: bold;
-    color: rgb(211, 211, 211);
+    color: orange;
     background-color: rgb(55, 55, 55);
     border-radius: 29px;
 }
@@ -212,16 +212,16 @@ body {
     border-color: rgb(1, 187, 1);
 }
 
-.btn--green {
+.btn--orange {
     color: rgb(55, 55, 55);
     background-color: orange;
     border-color: orange;
 }
 
-.btn--green:hover,
-.btn--green:active,
-.btn--green:focus,
-.btn--green:active:focus {
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
     color: white;
     background-color: rgb(1, 187, 1);
     border-color: rgb(1, 187, 1);
